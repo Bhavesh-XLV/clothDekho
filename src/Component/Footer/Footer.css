@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  height: 300px;
+  margin-top: 50px;
+  background-color: #f8f4f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.footer > div {
+  width: 30%;
+}
+.footer > div > ul > li {
+  margin-top: 10px;
+}
+
+.footer > div > ul > li > span {
+  margin-left: 20px;
+}

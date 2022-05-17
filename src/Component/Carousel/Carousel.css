@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Carousel {
+  width: 100%;
+  margin: auto;
+}
+
+.Carousel img {
+  height: 500px;
+}

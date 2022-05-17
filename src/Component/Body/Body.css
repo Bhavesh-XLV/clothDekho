@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.feature-heading {
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 0.5;
+  font-weight: 600;
+}
+.feature_line {
+  height: 2px;
+  width: 35%;
+  margin: auto;
+  background-color: grey;
+  margin-bottom: 40px;
+}
+
+.the-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+.the-card > div {
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 2%;
+  text-align: center;
+}
+
+.the-card > div > img {
+  width: 80%;
+  height: 270px;
+}
+
+.feature-product-cart > p {
+  text-align: left;
+}
+.filter > h1 {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.filter_div {
+  text-align: center;
+  font-weight: 550;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-left: 5px;
+}
+.filter_div > div {
+  text-align: left;
+}
+.filter_div > div > input {
+  margin-right: 20px;
+}
+.filter_div > h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price-heart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  width: 20%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.pagination > button {
+  margin-top: 30px;
+  width: 30%;
+  border: none;
+  border-radius: 5%;
+  background-color: #f8f4f1;
+  font-size: 16px;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.pagination > button:hover {
+  font-weight: 700;
+}

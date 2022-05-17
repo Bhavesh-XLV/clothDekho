@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.women {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  text-align: center;
+}
+.women > div {
+  width: 30%;
+}
+.women > div > img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}

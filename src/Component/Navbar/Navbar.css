@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav-container {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #f8f4f1;
+}
+.nav-container > DIV > img {
+  height: 100px;
+}
+.nav-container > div > ul > li {
+  display: inline-block;
+  margin-right: 50px;
+}
+.nav-container > input {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+}
